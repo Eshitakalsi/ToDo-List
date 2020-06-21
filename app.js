@@ -22,7 +22,7 @@ app.use(express.static("public"));
 
 
 //create new db STEP2
-mongoose.connect("mongodb+srv://admin-eshita:test123@cluster0-rn1oq.mongodb.net/todolistDB", { useNewUrlParser: true , useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://<accountname>:<password>@cluster0-rn1oq.mongodb.net/todolistDB", { useNewUrlParser: true , useUnifiedTopology: true });
 
 
 //STEP 3 
